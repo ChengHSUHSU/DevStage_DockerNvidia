@@ -1,0 +1,1 @@
+docker container run -d --name external -p 5050:5050 -v /home/tutorabc/DCGS2.0/:/tmp/DCGS -v /var/run/docker.sock:/var/run/docker.sock --restart=always  --net=host --log-opt max-size=5m --log-opt max-file=1  dcgs_base_image python3 mainExternalService.py

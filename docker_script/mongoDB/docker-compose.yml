@@ -1,0 +1,22 @@
+
+version: '2'
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+    container_name : mongoDB
+    ports:
+      - "27017:27017"
+    volumes_from:
+      - mongodata
+
+
+
+  mongodata:
+    image: tianon/true
+    container_name : mongoData
+    restart: always
+    volumes:
+      - /data/db
+    

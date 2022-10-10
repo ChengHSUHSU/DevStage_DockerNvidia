@@ -1,0 +1,43 @@
+
+
+1/ build compute engine. (hard-disk, cpu, memory, firewall)
+firewall : https://snoopy30485.github.io/2018/06/20/GCP-防火牆/
+
+2/ build super user
+https://phoenixnap.com/kb/how-to-create-sudo-user-on-ubuntu
+
+3/ ssh connection
+https://stackoverflow.com/questions/59533620/how-to-connect-to-gcp-vm-instance-with-password-using-ssh
+
+4/ gpu setting 
+https://medium.com/@scofield44165/ubuntu-20-04中安裝nvidia-driver-cuda-11-4-2版-cudnn-install-nvidia-driver-460-cuda-11-4-2-cudnn-6569ab816cc5
+
+
+5/ docker (cpu, gpu)
+https://hackmd.io/@joshhu/Sy8MQetvS      (install)
+https://www.ruyut.com/2021/12/ubuntu-sudo-docker.html  (cancel sudo)
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-20-04          (docker-compose)
+
+
+
+7/ portainer
+https://ithelp.ithome.com.tw/articles/10265048
+
+
+
+8/ jupyter-server
+
+9/ vs-code-server
+
+10/ mongoDB
+https://ithelp.ithome.com.tw/articles/10184657
+docker-compose up -d
+
+
+11/ mysqlDB
+
+
+
+
+
+
